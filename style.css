@@ -42,6 +42,15 @@ body {
   max-width: 600px;
 }
 
+.flex-fix-aktuelnosti {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+  flex-grow: 0 1;
+  min-height: 300px;
+  max-width: 600px;
+}
+
 
 /* sm */
 @media (min-width: 576px) {
